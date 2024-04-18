@@ -1,0 +1,40 @@
+.board {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    padding: 2px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://play-lh.googleusercontent.com/EUgRlCOH_jwtW39SaG7XeKq8pJsQfKkZB4MYED18npdsKeRZDmN9xVsSV3nbpoJGgIU=w526-h296-rw');
+}
+.cell{
+    border: 4px solid yellow;
+    border-radius: 10px rgb(164, 217, 217);
+    padding: 60px;
+    font-size: 30px;
+    color:;
+    box-shadow: 10px;
+    background-color: lightskyblue;
+    
+}
+h1{
+    color: yellow;
+    font-style:oblique;
+}
+#btn{
+    color: aqua;
+    border-radius: 10px;
+    border: solid white;
+    background-color: blue;
+    height: 30px;
+
+}
+body{
+    background-image: url('https://play-lh.googleusercontent.com/EUgRlCOH_jwtW39SaG7XeKq8pJsQfKkZB4MYED18npdsKeRZDmN9xVsSV3nbpoJGgIU=w526-h296-rw');
+}
